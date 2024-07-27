@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header {
+    background-color: #004e89;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0.2em 0;
+    font-size: 2.5em;
+}
+
+header h2 {
+    margin: 0.2em 0;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+header p {
+    margin: 0.5em 0;
+}
+
+header p a {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em 0;
+}
+
+main section {
+    background: white;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+    margin-top: 0;
+    color: #004e89;
+    border-bottom: 2px solid #004e89;
+    padding-bottom: 0.5em;
+}
+
+main section ul {
+    padding-left: 1.2em;
+}
+
+main .education-item, main .experience-item {
+    margin-bottom: 1.5em;
+}
+
+main .education-item h3, main .experience-item h3 {
+    margin: 0.5em 0;
+    color: #333;
+}
+
+footer {
+    background-color: #004e89;
+    color: white;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
